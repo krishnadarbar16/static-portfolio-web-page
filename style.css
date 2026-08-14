@@ -532,3 +532,9 @@ footer {
 footer p {
     font-size: 14px;
 }
+
+/* Active navigation link */
+
+.nav-links a.active {
+    color: #38bdf8;
+}
