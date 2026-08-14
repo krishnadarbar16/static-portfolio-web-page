@@ -34,3 +34,26 @@ function typeText() {
 }
 
 typeText();
+
+// Scroll to top button
+
+const topButton = document.getElementById("top-button");
+
+window.addEventListener("scroll", function () {
+
+    if (window.scrollY > 300) {
+        topButton.style.display = "block";
+    } else {
+        topButton.style.display = "none";
+    }
+
+});
+
+topButton.addEventListener("click", function () {
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+});

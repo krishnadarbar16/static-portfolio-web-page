@@ -538,3 +538,33 @@ footer p {
 .nav-links a.active {
     color: #38bdf8;
 }
+
+
+/* Scroll to top button */
+
+#top-button {
+    position: fixed;
+
+    right: 25px;
+    bottom: 25px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #38bdf8;
+    color: #0f172a;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: none;
+}
+
+#top-button:hover {
+    opacity: 0.85;
+}
