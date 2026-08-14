@@ -427,3 +427,42 @@ footer {
 .skill-card p {
     line-height: 1.7;
 }
+
+/* Project section */
+
+#projects {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.projects-container {
+    align-items: stretch;
+}
+
+.project-card {
+    min-height: 280px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card h3 {
+    color: #f8fafc;
+    font-size: 22px;
+}
+
+.project-card p {
+    line-height: 1.7;
+}
+
+.project-card .tech-stack {
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+
+/* Project card border effect */
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
