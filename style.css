@@ -390,3 +390,40 @@ footer {
     transform: translateY(-2px);
     opacity: 0.9;
 }
+
+/* About section */
+
+#about {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* Skills section */
+
+#skills {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.skill-card {
+    min-height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skill-card h3 {
+    color: #f8fafc;
+    font-size: 20px;
+}
+
+.skill-card p {
+    line-height: 1.7;
+}
