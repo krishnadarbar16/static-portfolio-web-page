@@ -63,3 +63,27 @@ topButton.addEventListener("click", function () {
 const year = document.getElementById("year");
 
 year.textContent = new Date().getFullYear();
+
+
+// Show sections when they enter the screen
+
+const sections = document.querySelectorAll(".section");
+
+function showSections() {
+
+    sections.forEach(function (section) {
+
+        const sectionPosition = section.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight - 100;
+
+        if (sectionPosition < screenPosition) {
+            section.classList.add("show");
+        }
+    });
+}
+
+window.addEventListener("scroll", showSections);
+
+showSections();
+
+
