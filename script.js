@@ -57,3 +57,9 @@ topButton.addEventListener("click", function () {
     });
 
 });
+
+// Set the current year automatically
+
+const year = document.getElementById("year");
+
+year.textContent = new Date().getFullYear();
