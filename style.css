@@ -568,3 +568,22 @@ footer p {
 #top-button:hover {
     opacity: 0.85;
 }
+
+/* Project links */
+
+.project-link {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    color: #38bdf8;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
